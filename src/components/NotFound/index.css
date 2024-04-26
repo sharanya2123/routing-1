@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.not-found-img {
+  width: 250px;
+}
+.not-found-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 55px;
+  color: #6d396b;
+}
+@media (min-height: 576px) {
+  .not-found-heading {
+    font-size: 45px;
+  }
+}
+.not-found-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 55px;
+  color: #6d396b;
+}
+@media (min-width: 576px) {
+  .not-found-heading {
+    font-size: 48px;
+  }
+}
